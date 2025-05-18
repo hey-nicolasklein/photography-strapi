@@ -538,6 +538,7 @@ export interface ApiPortfolioItemPortfolioItem
   extends Struct.CollectionTypeSchema {
   collectionName: 'portfolio_items';
   info: {
+    description: '';
     displayName: 'PortfolioItem';
     pluralName: 'portfolio-items';
     singularName: 'portfolio-item';

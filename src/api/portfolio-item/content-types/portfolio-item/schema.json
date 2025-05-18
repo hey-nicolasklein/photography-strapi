@@ -4,7 +4,8 @@
   "info": {
     "singularName": "portfolio-item",
     "pluralName": "portfolio-items",
-    "displayName": "PortfolioItem"
+    "displayName": "PortfolioItem",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,14 +18,15 @@
       "type": "string"
     },
     "FullImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
